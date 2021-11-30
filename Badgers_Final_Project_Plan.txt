@@ -1,0 +1,20 @@
+Game idea: crossy roads. Uses real traffic data to simulate the traffic movements. Player tries to get from one side of the road to the next. Player will start at the Bottom of the screen (y = 750) and move to the top of the screen to the other side of the rode(y = 100). If succeeds, add points and respawn at the start. 3 Lives in total, if you lose all their lives you will lose the game. If you get 1000 pts you win the game. 
+
+Keyboard interactivity: moving player forward backward and side to side to dodge cars 
+Player: moving across screen, player having a second animation when it gets hit 
+
+GUI systems: 
+Main menu(where player can enter name) and press start. Instructions to play game as well (how to move characters, how to pause game) 
+Pause Screen(occurs when player presses “P”) enters pause screen that lists the players name as well as current score, has a button to restart(Go back to main menu) or to resume game
+Win/Lose screen: will pop up according to conditions, have a button to go back to main menu or exit game. 
+Score: a box that keeps score and number of lives 
+
+Data input: real life traffic simulation 
+Cars: moving across screen while the tires are also spinning at a different rate. (The tires will provide the second level of animation) 
+
+Sound: splat sound for hitting a car, cheers for crossing road 
+
+Divide parts: 
+Angela: GUI systems 
+Vincent: Car/Data input(class animation hierarchies)
+Dayton: Player/Sound (keyboard interactivity/class animation hierarchies)
